@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    font-family: Tahoma;
+    padding: 0px;
+    margin: 0px;
+    color: #333;
+    background-color: #B9EDDD;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    background-color: #569DAA;
+}
+nav a {
+    color: white;
+    padding:20px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #B9EDDD;
+}
+article{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+
+#favplayers{
+    color: green;
+}
+
+.header{
+
+}
+.row{
+    display: flex;
+}
+.row div{
+
+    width: 50%;
+
+}
+.img-center{
+    text-align: center;
+}
+.profilePic{
+    max-width: 300px;
+    position: absolute;
+    top:20px;
+    right: 20px;
+
+}
+.mt{
+   margin-top: 30px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
